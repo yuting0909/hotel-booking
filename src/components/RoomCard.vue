@@ -21,7 +21,8 @@
 export default {
   props: {
     room: {
-      type: Object
+      type: Object,
+      default: undefined
     }
   }
 }

@@ -163,7 +163,7 @@
         </div>
       </div>
     </div>
-    <div class="room-container">
+    <div class="container room-container">
       <RoomCard v-for="room in roomData" :key="room.id" :room="room"></RoomCard>
     </div>
   </div>
@@ -283,17 +283,11 @@ export default {
   }
 }
 .room-container {
-  max-width: 1020px;
   transform: translateY(-60px);
-  margin: 0 auto;
-  padding: 0 20px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  @include media-breakpoint-down(lg) {
-    max-width: 680px;
-  }
   @include media-breakpoint-down(md) {
     max-width: 300px;
   }

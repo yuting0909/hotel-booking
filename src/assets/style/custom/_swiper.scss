@@ -1,0 +1,16 @@
+.swiper-container {
+  height: 100%;
+}
+.swiper-slide {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: rgba(0, 0, 0, 0.2);
+  &:hover {
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
